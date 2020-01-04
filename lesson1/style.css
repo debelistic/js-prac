@@ -1,0 +1,51 @@
+html{
+  background: url('./main-bg.jpg');
+  background-size: cover;
+}
+
+body, html{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: #fff;][poiu]
+}
+
+
+.keys{
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.key{
+  margin: 1em;
+  padding: 8px;
+  border: 8px solid #ffc600;
+  border-radius: .5rem;
+  width: 10em;
+  transition: all 0.7s ease;
+  text-align: center;
+  text-shadow: 0 0 .5rem black;
+}
+
+.playing {
+  transform: scale(1.1);
+  border-color: #ffc600;
+  box-shadow: 0 0 1rem #ffc600;
+}
+
+kbd{
+  display: block;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+.sound {
+  font-size: .8rem;
+  text-transform: uppercase;
+  letter-spacing: .1rem;
+  color: #ffc600;
+}
